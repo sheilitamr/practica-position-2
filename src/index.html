@@ -4,12 +4,92 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Vite App</title>
+    <title>Práctica position 2</title>
   </head>
   <body>
-    <h1>Hola</h1>
-    <img src="./assets/images/cute-cat.webp" alt="" />
+    <header class="header">
+      <h1 class="title">Social Media Dashboard</h1>
+      <h2 class="subtitle">Total Followers: 23,004</h2>
+    </header>
+    <main class="main">
+      <div class="big-cards">
+        <div class="big-card">
+          <img
+            src="assets/images/icon-facebook.svg"
+            alt="icon facebook"
+            class="big-card__icon"
+          />
+          <span class="big-card__user">@nathanf</span>
+          <span class="big-card__number">1987</span>
+          <span class="big-card__text">FOLLOWERS</span>
+          <img
+            src="assets/images/icon-up.svg"
+            alt="icon up"
+            class="big-card__arrow"
+          />
+          <span class="big-card__day">12 Today</span>
+        </div>
+
+        <div class="big-card big-card--second">
+          <img
+            src="assets/images/icon-twitter.svg"
+            alt="icon twitter"
+            class="big-card__icon"
+          />
+          <span class="big-card__user">@nathanf</span>
+          <span class="big-card__number">1044</span>
+          <span class="big-card__text">FOLLOWERS</span>
+          <img
+            src="assets/images/icon-up.svg"
+            alt="icon up"
+            class="big-card__arrow"
+          />
+          <span class="big-card__day">99 Today</span>
+        </div>
+        <div class="big-card big-card--third">
+          <img
+            src="assets/images/icon-instagram.svg"
+            alt="icon instagram"
+            class="big-card__icon big-card__icon--third"
+          />
+          <span class="big-card__user big-card__user--third">@realnathanf</span>
+          <span class="big-card__number big-card__number--third">11k</span>
+          <span class="big-card__text">FOLLOWERS</span>
+          <img
+            src="assets/images/icon-up.svg"
+            alt="icon up"
+            class="big-card__arrow big-card__arrow--third"
+          />
+          <span class="big-card__day big-card__day--third">1099 Today</span>
+        </div>
+
+        <div class="big-card big-card--fourth">
+          <img
+            src="assets/images/icon-youtube.svg"
+            alt="icon instagram"
+            class="big-card__icon big-card__icon--fourth"
+          />
+          <span class="big-card__user big-card__user--fourth">Nathan F.</span>
+          <span class="big-card__number big-card__number--fourth">8239</span>
+          <span class="big-card__text">SUBSCRIBERS</span>
+          <img
+            src="assets/images/icon-down.svg"
+            alt="icon down"
+            class="big-card__arrow big-card__arrow--fourth"
+          />
+          <span class="big-card__day big-card__day--fourth">144 Today</span>
+        </div>
+      </div>
+      <!--  <h2 class="title-card"></h2>
+      <div class="small-cards"></div> -->
+    </main>
   </body>
 </html>
