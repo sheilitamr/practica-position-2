@@ -160,3 +160,115 @@ body {
   left: 103px;
   color: #dc414c;
 }
+
+.title-card {
+  position: absolute;
+  top: 398px;
+  left: 165px;
+}
+.small-cards {
+  position: relative;
+  top: 230px;
+}
+.small-card {
+  position: absolute;
+  top: 0;
+  left: 165px;
+  width: 255px;
+  height: 125px;
+  background-color: #252b42;
+  border-radius: 5px;
+}
+.small-card--second {
+  position: absolute;
+  left: 450px;
+}
+.small-card--third {
+  position: absolute;
+  left: 735px;
+}
+.small-card--fourth {
+  position: absolute;
+  left: 1020px;
+}
+.small-card--fifth {
+  position: absolute;
+  top: 145px;
+  left: 165px;
+}
+.small-card--sixth {
+  position: absolute;
+  top: 145px;
+  left: 450px;
+}
+.small-card--seventh {
+  position: absolute;
+  top: 145px;
+  left: 735px;
+}
+.small-card--eighth {
+  position: absolute;
+  top: 145px;
+  left: 1020px;
+}
+.small-card__text {
+  position: absolute;
+  top: 27px;
+  left: 24px;
+  color: #8c98c6;
+  font-size: 14px;
+  font-weight: 700;
+}
+.small-card__icon {
+  position: absolute;
+  top: 26px;
+  right: 31px;
+}
+.small-card__number {
+  position: absolute;
+  top: 67px;
+  left: 24px;
+  font-size: 32px;
+  font-weight: 700;
+}
+.small-card__arrow {
+  position: absolute;
+  top: 92px;
+  right: 52px;
+}
+.small-card__arrow--second {
+  position: absolute;
+  right: 52px;
+}
+.small-card__arrow--third {
+  position: absolute;
+  right: 75px;
+}
+.small-card__arrow--fourth {
+  position: absolute;
+  right: 72px;
+}
+.small-card__arrow--fifth,
+.small-card__arrow--sixth {
+  position: absolute;
+  right: 69px;
+}
+.small-card__arrow--seventh,
+.small-card__arrow--eighth {
+  position: absolute;
+  right: 57px;
+}
+
+.small-card__percentage {
+  position: absolute;
+  top: 86px;
+  right: 31px;
+  color: #1eb589;
+  font-size: 12px;
+  font-weight: 700;
+}
+.small-card__percentage--second,
+.small-card__percentage--seventh,
+.small-card__percentage--eighth {
+  color: #dc414c;
+}
